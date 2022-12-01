@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lobster&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0s;
+}
+
+body {
+  background-image: linear-gradient(to left, royalblue, pink);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Kanit, sans-serif;
+}
+
+.title {
+  position: relative;
+  bottom: 150px;
+  font-size: 7rem;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbers {
+  font-size: 5rem;
+  background-color: #d3d3d3;
+  height: 125px;
+  width: 115px;
+  text-align: center;
+  margin: 0 20px 0;
+  border-radius: 10px;
+  position: relative;
+  bottom: 50px;
+}
+
+#ampm {
+  height: 50px;
+  width: 50px;
+  background-color: #d3d3d3;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+  border-radius: 10px;
+}
+
+#ampm.pm {
+  background-color: black;
+  color: white;
+}
+
+#ampm.am {
+  background-color: #d3d3d3;
+  color: black;
+}
